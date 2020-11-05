@@ -1,0 +1,64 @@
+.Cell-container {
+    border: 1px solid;
+    box-sizing: border-box;
+    border-color: #dfdfdf;
+    cursor: pointer;
+    text-align: center;
+    padding-top: .3em;
+    width: 5vmin;
+    height: 5vmin;
+}
+
+.Cell-ship {
+    background-color: #602f75;
+}
+
+.Cell-container:hover{
+    border-color: #919191;
+}
+
+
+.Cell-container:active{
+    border-color: #913f39;
+    background-color: #913f39;
+}
+
+.Cell-on-fire{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Emoji_u1f525.svg/120px-Emoji_u1f525.svg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.Cell-shot:after {
+    content: '○';
+    display: block;
+    color: gray;
+    font-size: 4vmin;
+    padding-top: 1vmin;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .Cell-container {
+        width: 6vmin;
+        height: 6vmin;
+    }
+    .Cell-shot:after {
+        font-size: 3vmin;
+        padding-top: .5vmin;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .Cell-container {
+        width: 7vmin;
+        height: 7vmin;
+    }
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+    .Cell-container {
+        width: 9vmin;
+        height: 9vmin;
+    }
+}

@@ -1,0 +1,11 @@
+.StartButton-button {
+    font-size: 1em;
+    color: #ffe600;
+    padding: 10px 30px;
+    border: 0;
+    display: block;
+    margin: 20px auto;
+    background-color: #602f75;
+    border-radius: 10px;
+    cursor: pointer;
+}
