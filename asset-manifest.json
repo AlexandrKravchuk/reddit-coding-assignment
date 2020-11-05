@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/reddit-coding-assignment/static/css/main.d9849895.chunk.css",
+    "main.js": "/reddit-coding-assignment/static/js/main.53a887bd.chunk.js",
+    "main.js.map": "/reddit-coding-assignment/static/js/main.53a887bd.chunk.js.map",
+    "runtime-main.js": "/reddit-coding-assignment/static/js/runtime-main.e8ea4c09.js",
+    "runtime-main.js.map": "/reddit-coding-assignment/static/js/runtime-main.e8ea4c09.js.map",
+    "static/js/2.26e366fc.chunk.js": "/reddit-coding-assignment/static/js/2.26e366fc.chunk.js",
+    "static/js/2.26e366fc.chunk.js.map": "/reddit-coding-assignment/static/js/2.26e366fc.chunk.js.map",
+    "index.html": "/reddit-coding-assignment/index.html",
+    "static/css/main.d9849895.chunk.css.map": "/reddit-coding-assignment/static/css/main.d9849895.chunk.css.map",
+    "static/js/2.26e366fc.chunk.js.LICENSE.txt": "/reddit-coding-assignment/static/js/2.26e366fc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e8ea4c09.js",
+    "static/js/2.26e366fc.chunk.js",
+    "static/css/main.d9849895.chunk.css",
+    "static/js/main.53a887bd.chunk.js"
+  ]
+}
